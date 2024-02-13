@@ -31,29 +31,21 @@ class Solution:
                     return False
                 else:
                     check.append(sudoku[row][col])
-                    
+        
+        for i in range(0, 9, 3):
+            for j in range(0, 9, 3):
+                max_row = i+ 2
+                max_col = j + 2
+                check = []
+                for k in range(i, max_row+1):
+                    for l in range(j, max_col+1):
+                        if sudoku[k][l] != 0 and sudoku[k][l] in check:
+                            return False
+                        else:
+                            check.append(sudoku[k][l])
+                
         return True
-    
-    
-        
-            
-                
-                
-        
-        
-        
-    
-            
-        
-            
-            
-        
-                    
-                    
-        
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-        
-        
+
 print(Solution().isValidSudoku([["5","3",".",".","7",".",".",".","."]
                                 ,["6",".",".","1","9","5",".",".","."]
                                 ,[".","9","8",".",".",".",".","6","."]
