@@ -6,6 +6,7 @@
   - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/1168534325/) (Medium)
   - [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/submissions/1173980304/) (Medium)
   - [Jump Game](https://leetcode.com/problems/jump-game/submissions/1185070425/)(Medium)
+  - [Jump Game 2](https://leetcode.com/problems/jump-game-ii/submissions/1185102530/)(medium)
 
 - **String**
   - [Longest substring without repeat](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)
