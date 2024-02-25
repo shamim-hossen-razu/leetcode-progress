@@ -26,4 +26,4 @@ class Solution:
                     visited.add(next_index)
 
         return -1  #
-print(Solution().canJump([0]))
+print(Solution().canJump([2,3,1,1,4]))

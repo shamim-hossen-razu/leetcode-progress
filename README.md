@@ -12,3 +12,5 @@
   - [Longest substring without repeat](https://leetcode.com/problems/longest-substring-without-repeating-characters/) (Medium)
   - [Group Anagram](https://leetcode.com/problems/group-anagrams/submissions/1170711477/) (Medium)
   - [Longest palindrome Substring](https://leetcode.com/problems/longest-palindromic-substring/) (Medium)
+- **Tree**
+  - [Path Sum](https://leetcode.com/problems/path-sum/)(Hard)
