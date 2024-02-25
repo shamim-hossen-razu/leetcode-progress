@@ -15,6 +15,14 @@ class Solution:
         # Recursively check left and right subtrees
         return self.hasPathSum(root.left, targetSum - root.val) or self.hasPathSum(root.right, targetSum - root.val)
 
+def create_binary_tree(arr, index):
+    if index < len(arr) and arr[index] is not None:
+        node = TreeNode(arr[index])
+        node.left = create_binary_tree(arr, 2 * index + 1)
+        node.right = create_binary_tree(arr, 2 * index + 2)
+        return node
+    return None
+
 # Example usage:
 root_values = [5, 4, 8, 11, None, 13, 4, 7, 2, None, None, None, None, 1]
 target_sum = 22
